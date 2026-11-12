@@ -1,0 +1,12 @@
+{
+  "approval_rate": 0.7677,
+  "avg_claim_amount": 18543.75,
+  "claim_frequency": 0.4964,
+  "claims": 487,
+  "claims_exceeding_coverage": 8,
+  "customers_with_policies": 782,
+  "incurred_amount": 1531920.5,
+  "loss_ratio": 0.8089,
+  "policies": 981,
+  "written_premium": 1893731.21
+}

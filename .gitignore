@@ -1,0 +1,18 @@
+# environments / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# secrets
+.env
+# generated artifacts (regenerate with the run commands in README)
+logs/*.log
+data/uploads/*
+!data/uploads/.gitkeep
+data/runtime/*.db
+data/processed/*
+!data/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "claims": {
+      "curated": 487,
+      "input": 578,
+      "reject_reason_counts": {
+        "claim_outside_policy_period": 30,
+        "duplicate_claim_id": 10,
+        "invalid_amount": 9,
+        "orphan_policy_ref": 45
+      },
+      "rejected": 91,
+      "rejected_pct": 15.74
+    },
+    "customers": {
+      "curated": 800,
+      "input": 821,
+      "reject_reason_counts": {
+        "superseded_duplicate": 21
+      },
+      "rejected": 21,
+      "rejected_pct": 2.56
+    },
+    "policies": {
+      "curated": 981,
+      "input": 1009,
+      "reject_reason_counts": {
+        "duplicate_policy_id": 6,
+        "end_not_after_start": 5,
+        "invalid_premium": 6,
+        "orphan_customer_ref": 10,
+        "unknown_policy_type": 1
+      },
+      "rejected": 28,
+      "rejected_pct": 2.78
+    }
+  },
+  "warnings": [
+    {
+      "entity": "customers",
+      "records": 6,
+      "rule": "invalid_dob_set_null"
+    },
+    {
+      "entity": "claims",
+      "records": 8,
+      "rule": "exceeds_coverage_limit_flagged"
+    }
+  ]
+}

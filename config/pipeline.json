@@ -1,0 +1,13 @@
+{
+  "as_of_date": "2024-12-31",
+  "date_formats": ["%Y-%m-%d", "%d %b %Y", "%m/%d/%Y"],
+  "max_age_years": 110,
+  "max_policy_term_years": 2,
+  "max_input_mb": 100,
+  "policy_type_map": {"auto": "Auto", "motor": "Auto", "car": "Auto", "home": "Home", "property": "Home",
+                      "health": "Health", "medical": "Health", "life": "Life"},
+  "claim_status_map": {"open": "Open", "pending": "Open", "approved": "Approved", "paid": "Paid",
+                       "rejected": "Rejected", "denied": "Rejected"},
+  "regions": ["North", "South", "East", "West"],
+  "claims_files": ["claims_2022_2023.csv", "claims_2024.csv"]
+}
